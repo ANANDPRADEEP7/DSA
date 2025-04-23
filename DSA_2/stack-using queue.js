@@ -27,3 +27,4 @@ stack.push(96);
 stack.push(24);
 stack.pop();
 console.log(stack.top());
+

@@ -14,7 +14,6 @@
 
     //-binary-search.js
 
-
     
 function search(nums, target) {
   let start = 0;

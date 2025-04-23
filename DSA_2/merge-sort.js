@@ -26,6 +26,7 @@ function merge(left, right) {
   return [...sortedArr, ...left, ...right];
 }
 
+
 // Time Complexity - O(nlog n)
 // Space Complexity - O(n)
 console.log(mergeSort([8, 3, 5, 4, 7, 6, 1, 2]));

@@ -84,6 +84,7 @@ class HashTable {
   }
 }
 
+
 const ht = new HashTable();
 ht.insert("name", "Bruce");
 ht.insert("age", 25);

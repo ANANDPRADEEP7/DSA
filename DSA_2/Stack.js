@@ -110,3 +110,4 @@ function isBalanced(par) {
 }
 
 console.log(isBalanced("{[]}"))
+

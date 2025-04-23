@@ -110,7 +110,3 @@ obj.deQueue();
 obj.enQueue(72);
 
 console.log(obj.Front(), obj.Rear());
-
-
-
-
