@@ -50,7 +50,7 @@ class BST{
       let closest=this.root.value
       while(current){
           if(Math.abs(target-current.value)<Math.abs(target-closest)){
-              current=closest
+              closest=current.value
           }
           if(target<current.value){
               current=current.left

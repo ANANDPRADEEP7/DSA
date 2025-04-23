@@ -1,7 +1,7 @@
 class TrieNode{
   constructor(){
       this.children=new Array(26).fill(null)
-      this.endOfWord=false
+      this.endOfWord=false;
   }
 }
 
@@ -9,6 +9,7 @@ class Trie{
   constructor(){
       this.root=new TrieNode()
   }
+
   insert(word){
       let node=this.root
       for(let char of word){        

@@ -83,3 +83,4 @@ console.log(minHeap.extractMin());
 console.log(minHeap.extractMin()); 
 
 console.log(minHeap.sort()); // Expected Output: [1, 3, 5, 8] 
+
