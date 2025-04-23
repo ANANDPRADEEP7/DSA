@@ -61,6 +61,7 @@ class BST{
       return closest
   }
 
+  
   findMin(node=this.root){
       if(!node) return null
       while(node.left){
