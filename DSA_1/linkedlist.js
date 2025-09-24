@@ -1,5 +1,7 @@
 // Linked List in Javascript
 
+
+
 class Node {
   constructor(data) {
     this.data = data;
